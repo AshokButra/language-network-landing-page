@@ -1,0 +1,70 @@
+.contact-component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support-description {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: -15px;
+}
+.support-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.language-logo {
+  width: 137px;
+  height: 72px;
+  margin-bottom: 25px;
+}
+.copyright-sentence {
+  font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+  .copyright-sentence {
+    display: none;
+  }
+}
+.support-middle-container {
+  display: flex;
+  align-items: center;
+}
+.terms-conditions {
+  font-size: 13px;
+}
+.privacy-policy {
+  font-size: 13px;
+  margin-left: 15px;
+}
+.start-up {
+  font-size: 13px;
+  margin-left: 15px;
+}
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+.facebook-icon {
+  font-size: 15px;
+}
+.instagram-icon {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.linkedin-icon {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.pinterest-icon {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.youtube-icon {
+  font-size: 15px;
+  margin-left: 10px;
+}

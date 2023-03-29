@@ -1,0 +1,16 @@
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faqs-heading {
+  color: #8adec2;
+  font-size: 20px;
+  text-align: center;
+}
+.select-container {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #d4d9d7;
+}

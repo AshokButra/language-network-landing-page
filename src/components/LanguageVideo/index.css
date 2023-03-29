@@ -1,0 +1,39 @@
+.happy-learners-container {
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 6px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.happy-learners {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.card-text-container {
+  margin-left: 15px;
+}
+.language-video-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.happy-learners {
+  width: 65px;
+  height: 65px;
+}
+.language-video {
+  width: 500px;
+  height: 450px;
+}
+@media screen and (max-width: 768px) {
+  .language-video {
+    display: none;
+  }
+}

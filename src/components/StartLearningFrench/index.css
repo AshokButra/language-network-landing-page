@@ -1,0 +1,61 @@
+.start-learning-french-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #575c58;
+  padding: 15px;
+}
+
+.start-learning-french-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.cards-container {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .cards-container {
+    overflow-x: auto;
+    width: 90%;
+  }
+}
+.card {
+  margin-right: 5px;
+  background-color: #ffffff;
+}
+.top-section {
+  background-color: #d2f7eb;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sentence {
+  display: flex;
+  align-items: center;
+}
+.para1 {
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.sentence-container {
+  margin: 15px;
+}
+.correct-icon {
+  height: 17px;
+  width: 17px;
+}
+.start-learning-french-online-button {
+  background-color: #84dbbe;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
